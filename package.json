@@ -1,0 +1,23 @@
+{
+  "name": "task-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "mongodb": "^3.5.7",
+    "mongoose": "^5.3.16",
+    "validator": "^10.9.0"
+  },
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
